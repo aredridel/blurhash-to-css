@@ -9,6 +9,16 @@
       "email": "aredridel@dinhe.net"
     }
   ],
+  "autoload": {
+    "psr-4": {
+      "aredridel\\Blurhash\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "aredridel\\Blurhash\\": "test"
+    }
+  },
   "require": {
     "kornrunner/blurhash": "^1.2"
   }
