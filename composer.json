@@ -1,13 +1,15 @@
 {
-    "name": "aredridel/blurhash-to-css",
-    "description": "Convert blurhashes to CSS gradients",
-    "type": "library",
-    "license": "ISC",
-    "authors": [
-        {
-            "name": "Aria Stewart",
-            "email": "aredridel@dinhe.net"
-        }
-    ],
-    "require": {}
+  "name": "aredridel/blurhash-to-css",
+  "description": "Convert blurhashes to CSS gradients",
+  "type": "library",
+  "license": "ISC",
+  "authors": [
+    {
+      "name": "Aria Stewart",
+      "email": "aredridel@dinhe.net"
+    }
+  ],
+  "require": {
+    "kornrunner/blurhash": "^1.2"
+  }
 }
